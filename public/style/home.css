@@ -1,0 +1,16 @@
+.home-container {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(69, 82, 40);
+    box-shadow: 10px 5px 5px rgb(67, 88, 59);
+    width: 300px;
+    padding: 16px;
+}
+
+label {
+    color: rgb(103, 144, 41);
+}
+
+span {
+    color: white;
+}

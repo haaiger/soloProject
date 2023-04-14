@@ -1,0 +1,18 @@
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-img {
+    width: 700px;
+    height: 700px;
+}
+
+.card-text {
+    color: white;
+    padding: 8px;
+}
+
+.cover-heading {
+    color: mediumslateblue;
+}

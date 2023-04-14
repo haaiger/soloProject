@@ -1,0 +1,68 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.wrapper {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pulse-button {
+    position: relative;
+    top: 50%;
+    margin-left: -50px;
+    margin-top: 150px;
+    display: block;
+    height: 150px;
+    font-size: 64px;
+    font-weight: light;
+    font-family: 'FORTNITE BATTLEFEST', Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 100px;
+    letter-spacing: -1px;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    color: #96224d;
+    cursor: pointer;
+    box-shadow: 0 0 0 0 rgba(#8714aa, .5);
+    -webkit-animation: pulse 1.5s infinite;
+    text-decoration: none;
+}
+
+.pulse-button1 {
+    left: 50%;
+
+}
+
+.pulse-button2 {
+    left: 470px;
+}
+
+.pulse-button:hover {
+    -webkit-animation: none;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(.7);
+    }
+
+    70% {
+        transform: scale(1);
+        box-shadow: 0 0 0 50px rgba(#8714aa, 0);
+    }
+
+    100% {
+        transform: scale(.7);
+        box-shadow: 0 0 0 0 rgba(#8714aa, 0);
+    }
+}

@@ -1,0 +1,25 @@
+.image {
+    background-image: url("https://as2.ftcdn.net/v2/jpg/01/96/37/27/1000_F_196372750_PkDpJJ4fYnvucnYhnvGZgmkzHYKJmQD1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    margin-left: 16px;
+    font-size: 25px;
+}
+
+a {
+    font-size: 15px;
+    text-decoration: none;
+    color: ivory;
+}
